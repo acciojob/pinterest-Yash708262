@@ -1,1 +1,22 @@
-/*  your css code here. If applicable */
+.hero {
+	display:flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 20px;
+}
+#content{
+	max-width:400px;
+}
+#image {
+	width:350px;
+	height:180px;
+	object-fit:cover;
+}
+#explore {
+	background-color: red;
+	color:white;
+	border: none;
+	border-radius:4px;
+	height:30px;
+	padding: 10px 20px;
+}
